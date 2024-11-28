@@ -278,6 +278,11 @@ strike {
   text-decoration: line-through;
 }
 
+hr {
+  border: 0;
+  border-top: 1.5px solid var(--table-border);
+}
+
 @media print {
   html {
     font-size: 15px;
@@ -358,13 +363,13 @@ blockquote {
   text-align: center;
   padding: 0.5rem;
   border-left: 4px solid var(--table-border);
-  opacity: 85%;
+  opacity: 80%;
 }
 
 blockquote > p {
   text-align: center;
   display: inline-block;
-  opacity: 65%;
+  opacity: 70%;
   font-family: var(--ff-serif);
   font-style: italic;
   font-size: 1.1rem;

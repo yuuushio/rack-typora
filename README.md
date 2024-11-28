@@ -13,9 +13,7 @@ Both `rack.css` and `rack/` directory go inside `~/.config/Typora/themes/`, and 
 Coming soon...
 
 ## TODO
-- Style blockquotes
 - Different H1 font
-- Style table (separate th from tr)
 
 
 

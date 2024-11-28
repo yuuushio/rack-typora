@@ -10,7 +10,7 @@ Both `rack.css` and `rack/` directory go inside `~/.config/Typora/themes/`, and 
 
 ## Showcase
 
-Please take a look at `example.pdf`.
+Please take a look at `markdown-syntax.pdf` to see what the css renders as when exported.
 
 ## TODO
 - Different H1 font

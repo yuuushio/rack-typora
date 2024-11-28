@@ -1,6 +1,6 @@
 # Rack
 
-A Typora theme for elegant report documents, based on Refine. Designed and optimized for pdf output/printing, rather than just viewing/note-taking.
+A refined Typora theme tailored for creating polished, professional documents. Inspired by Refine, this theme is designed and optimized for PDF output and printing, ensuring balanced margins and an elegant layout. Ideal for generating documents with a focus on presentation and readability, beyond the standard Typora note-taking or on-screen viewing.
 
 ## Usage
 
@@ -8,9 +8,9 @@ A Typora theme for elegant report documents, based on Refine. Designed and optim
 
 Both `rack.css` and `rack/` directory go inside `~/.config/Typora/themes/`, and it should work as is.
 
-## Images
+## Showcase
 
-Coming soon...
+Please take a look at `example.pdf`.
 
 ## TODO
 - Different H1 font

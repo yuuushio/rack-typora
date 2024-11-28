@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'BrixSans';
+    src: url('brix/brixsans_bolditalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrixSans';
+    src: url('brix/brixsans_regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrixSans';
+    src: url('brix/brixsans_bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrixSans';
+    src: url('brix/brixsans_lightitalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BrixSans';
+    src: url('brix/brixsans_light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrixSans';
+    src: url('brix/brixsans_italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+

@@ -1,0 +1,306 @@
+@import "rack/font-defs.css";
+
+:root {
+  /* Fonts */
+  --ff-sans: "brandontxt";
+  --ff-serif: "Ivy Journal", "Adobe Caslon Pro", "Goudy Old Style", "Athelas",
+    "Californian FB", "Georgia Pro", Georgia, serif;
+  --ff-mono: "gtpresmono";
+  --ff-disp: "scilla";
+  --ff-disp-h56: "BrixSans";
+  --ff-disp-sm: "SangBleu Kingdom", "Questa", "Georgia Pro", Georgia, serif;
+  --ff-garamond: "Adobe Garamond Pro", "Adobe Garamond", "EB Garamond", Garamond,
+    serif;
+  --ff-helvetica: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+html {
+  font-size: 20px;
+}
+
+a {
+  transition-property: background;
+  transition-duration: 0.1s;
+  color: #07a;
+}
+
+h1 > a,
+h2 > a,
+h3 > a {
+  color: inherit;
+}
+
+a:hover,
+a.write:hover,
+a.glossary:hover {
+  transition-property: background;
+  transition-duration: 0.1s;
+  background: #f2f8fa;
+}
+
+a.ext {
+  color: #888;
+}
+
+a.ext:hover {
+  color: #07a;
+}
+
+body {
+  font-family: var(--ff-sans);
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-font-smoothing: subpixel-antialiased;
+  /* corrects safari rendering */
+}
+
+strong {
+  font-weight: bolder;
+}
+
+#write {
+  font-family: var(--ff-sans);
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin: 0 auto;
+  max-width: 950px;
+  /* text-rendering: optimizeLegibility;*/
+  color: #333;
+  line-height: 1.63;
+  font-smoothing: antialiased; /* For non-WebKit browsers */
+  text-rendering: geometricPrecision; /* Improve text clarity */
+  font-feature-settings:
+    "kern" 1,
+    "liga" 1,
+    "clig" 1,
+    "calt" 1; /* Enable advanced font features */
+}
+
+/*h1 {
+    font-feature-settings: "ss04";
+    font-size: 1.8rem;
+    line-height: 1.1;
+    width: 28rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+}*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 1.4rem;
+  font-weight: bold;
+  line-height: 1.4;
+  cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+  text-decoration: none;
+}
+h1 tt,
+h1 code {
+  font-size: inherit;
+}
+h2 tt,
+h2 code {
+  font-size: inherit;
+}
+h3 tt,
+h3 code {
+  font-size: inherit;
+}
+h4 tt,
+h4 code {
+  font-size: inherit;
+}
+h5 tt,
+h5 code {
+}
+h6 tt,
+h6 code {
+}
+h1 {
+  font-family: var(--ff-disp);
+  font-size: 2.3rem;
+  line-height: 1.24;
+  letter-spacing: 0.1rem;
+}
+h2 {
+  font-size: 1.75em;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+h4 {
+  font-size: 1.25em;
+}
+h5 {
+  font-family: var(--ff-disp-h56);
+  font-weight: normal;
+  font-size: 1.16em;
+  letter-spacing: 0.035rem;
+  opacity: 90%;
+  color: ##3b4252;
+}
+h6 {
+  font-family: var(--ff-disp-h56);
+  font-weight: normal;
+  font-size: 0.9em;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  opacity: 85%;
+}
+
+#write > * {
+  margin-left: 1.5rem;
+
+  margin-right: 3rem;
+}
+
+p,
+li {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+ul li {
+  margin-left: 0rem;
+  padding-left: 0.8rem;
+  width: 98%;
+}
+
+ol li {
+  margin-left: 0rem;
+  padding-left: 0.8rem;
+  width: 96%;
+}
+
+ol li:before {
+  font-size: 0.4rem;
+}
+
+em {
+  font-style: italic;
+}
+
+pre {
+  font-size: 85%;
+  padding: 0.1rem;
+  white-space: pre;
+  transition-property: background;
+  transition-duration: 0.1s;
+}
+
+pre {
+  font-family: var(--ff-mono);
+  font-size: 0.75rem;
+  line-height: 1.35;
+  margin-right: -2rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+#write pre.md-meta-block {
+  font-family: var(--ff-mono);
+  padding: 1rem;
+  font-size: 85%;
+  line-height: 1.45;
+  border: 0;
+  border-radius: 3px;
+  color: #777777;
+  margin-top: 0 !important;
+}
+
+.md-fences {
+  background-color: #fbfbfb;
+}
+
+.CodeMirror-lines {
+  padding-left: 4px;
+}
+
+.md-fences,
+code,
+pre,
+tt {
+  /*border: 1px solid #e7eaed;*/
+  font-family: var(--ff-mono);
+  font-family: "JetBrainsMono Nerd Font";
+  border-radius: 0.4rem;
+  padding: 2px 4px 0px 4px;
+
+  font-size: 0.8em;
+  color: #434c5e;
+  font-weight: 300;
+  margin-bottom: 0.6rem;
+}
+
+code {
+  background-color: rgba(239, 240, 242, 0.55);
+  font-family: var(--ff-mono);
+  font-family: "JetBrainsMono Nerd Font";
+  color: #5e81ac;
+  padding: 0.16rem;
+  padding-left: 0.28rem;
+  padding-right: 0.28rem;
+}
+
+.md-fences {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  padding: 0.8rem;
+}
+
+.mathjax-block > .code-tooltip {
+  bottom: 0.375rem;
+}
+
+.md-mathjax-midline {
+  background: #fafafa;
+}
+
+strike {
+  text-decoration: line-through;
+}
+
+@media print {
+  html {
+    font-size: 15px;
+  }
+  table,
+  pre {
+    page-break-inside: avoid;
+  }
+  pre {
+    word-wrap: break-word;
+  }
+  @page {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+  }
+
+  body {
+    padding-top: 0; /* Ensure body padding does not interfere */
+  }
+
+  #write {
+    margin-top: 0; /* Reset margins to avoid conflicts */
+    padding: 0;
+  }
+}
